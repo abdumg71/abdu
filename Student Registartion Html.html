@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<Html>  
+    <head>  
+    <meta name="auther" content="ABDULMENAN"> 
+    <meta http-equiv="refresh" content="10">
+    <meta name="description" content="this my first web page">
+    <title>  
+   <b>Registration Page </b>  
+    <hr>
+    </title>  
+    </head>  
+    <body >  
+        <header>
+            <marquee style="font-size: 50px;">Ethiopian University Student Registartion System Websit.</marquee>
+            <nav>
+             <ul>
+                <div>
+              <li>
+                <a href="#">Home</a></li>
+              <li>
+                <a href="#">About Us</a></li>
+              <li>
+                <a href="#">Programs</a></li>
+              <li>
+                <a href="#">Admissions</a></li>
+              <li>
+                <a href="#">Contact Us</a></li>
+            </div>
+             </ul>
+            </nav>
+           </header>
+        <br>  
+    <br>  
+    <form> 
+        <h1>
+        <i>Academic Information</i></h1>
+        <!-- Use a form to structure the academic information section -->
+        <form>
+         <label for="program">Program:</label>
+         <select id="program" name="program">
+          <option value="Diploma "> Diploma</option>
+          <option value=".Degree">Degree</option>
+          <option value="Mister">Mister</option>
+          <option value="PHD">PHD</option>
+         </select>
+         <br>
+         <label for="student_id">Student ID:</label>
+         <input type="text" id="student_id" name="student_id">
+         <br>
+         <label for="enrollment_date">Enrollment Date:</label>
+         <input type="date" id="enrollment_date" name="enrollment_date">
+         <br>
+         <label for="graduation_date">Graduation Date:</label>
+         <input type="date" id="graduation_date" name="graduation_date">
+         <br>
+         <label for="advisor">Advisor:</label>
+         <input type="text" id="advisor" name="advisor">
+         <br>
+         <label for="courses">Courses:</label>
+         <textarea id="courses" name="courses"></textarea>
+         <br>
+         <input type="submit" value="Submit">
+        </form>
+      
+    <label> Firstname </label>         
+    <input type="text" name="firstname" size="15"/> <br> <br>  
+    <label> Middlename: </label>     
+    <input type="text" name="middlename" size="15"/> <br> <br>  
+    <label> Lastname: </label>         
+    <input type="text" name="lastname" size="15"/> <br> <br>  
+      
+    <label>   
+   <h2>Departement </h2>  
+    </label>   
+    <select>  
+    <option value="IT">IT</option>  
+    <option value="CS">CS</option>  
+    <option value="IS">IS</option>  
+    <option value="software engineering">CICSO</option>  
+    <option value="accounting">ACCOUNTING</option>  
+    <option value="management">MANAGEMENT</option>  
+    <option value="law">LAW</option>  
+    </select>  
+      
+    <br> 
+    <br>  
+    <label>   
+    Gender :  
+    </label><br>  
+    <input type="radio" name="male"/> Male <br>  
+    <input type="radio" name="female"/> Female <br>  
+    <input type="radio" name="other"/> Other  
+    <br>  
+    <br>  
+      
+    <label>   
+    Phone :  
+    </label>  
+    <input type="text" name="country code"  value="+251" size="2"/>   
+    <input type="text" name="phone" size="10"/> <br><br>
+    <label> Country </label>         
+    <input type="text" name="country" size="15"/> <br> <br>
+    <label>   region  </label>         
+    <input type="text" name=" region " size="15"/> <br> <br>
+    <label>  Address   </label>         
+    <input type="text" name=" Address  " size="15"/> <br><br>
+    <label>   city  </label>         
+    <input type="text" name=" city  " size="15"/> <br> <br>
+    <label>   postcode </label>         
+    <input type="text" name=" postcode " size="15"/> <br> 
+     
+    <br> <br>  
+    Email:  
+    <input type="email" id="email" name="email"/> <br>    
+    <br> <br>  
+    <b>Password: </b> 
+    <input type="Password" id="pass" name="pass"> <br>   
+    <br> <br>  
+    <strong>Re-type password:</strong>  
+    <input type="Password" id="repass" name="repass"> <br> <br>  
+    <input type="button" value="Submit"/>  
+   </form>  
+     </table>
+    <h3>Personal Information display</h3>
+ <!-- Use a table to structure the form -->
+ <table>
+  <tr>
+   <td>First Name:</td>
+   <td>
+    <input type="text" name="first_name"></td>
+  </tr>
+  <tr>
+   <td>Last Name:</td>
+   <td>
+    <input type="text" name="last_name"></td>
+  </tr>
+  <tr>
+   <td>Email:</td>
+   <td>
+    <input type="email" name="email"></td>
+  </tr>
+  <tr>
+   <td>Phone:</td>
+   <td>
+    <input type="tel" name="phone"></td>
+  </tr>
+  <tr>
+   <td>Address:</td>
+   <td>
+    <textarea name="address"></textarea></td>
+  </tr>
+ </table>
+ <br><marquee>ABDULMENAN MENZA GEDA </marquee>
+<iframe src="http://www.google.com">
+ <!-- Use frames to split the form into two sections -->
+ <frameset cols="10%,10%">
+    <frame src="personal_info.html">
+    <frame src="academic_info.html">
+   </frameset>
+  </body>  
+    </html>  
+    <!--
+ <doctype>-It is used to define the document type.
+ <Html>-The html element represents the root of an HTML document.
+<head>-The head element represents a collection of metadata for the Document.
+<body> - body element represents the content of the document.
+<header>-header element represents introductory content for its nearest ancestor sectioning content or sectioning root element. 
+<h1-h3> element represents a section heading.
+ <nav>-used to define the division of the content in the file
+ <ul>-    ul element represents a list of items, where the order of the items is not important — 
+that is, where changing the order would not materially change the meaning of the document.
+
+<li>-li element represents a list item. If its parent element is an ol, ul, or menu element, then the element is an item of the parent element's list, as defined for those elements.
+<br>=br element represents a line break.
+<form> - form element represents a collection of form-associated elements.
+<label>- label element represents a caption in a user interface. The caption can be associated with a specific form control
+<select>-select element represents a control for selecting amongst a set of options.
+<option>-option element represents an option in a select element or as part of a list of suggestions in a datalist element.
+<input>- input element represents a typed data field, usually with a form control to allow the user to edit the data
+<textarea> - textarea element represents a multiline plain text edit control for the element's raw value. The contents of the control represent the control's default value.
+<table>-table element represents data with more than one dimension, in the form of a table.
+<tr>- tr element represents a row of cells in a table
+-i used  tr five times. 
+<td>-  td element represents a data cell in a table.
+-i used td ten times. 
+<marquee>-table element represents data with more than one dimension, in the form of a table.
+-i used marquee two times.
+<metatag>-The meta element represents various kinds of metadata that cannot be expressed using the title, base, link, style, and script elements.
+<b>-The b element represents a span of text to which attention is being drawn for utilitarian purposes without conveying any extra importance and with no implication of an alternate voice or mood, such as key words in a document abstract, product names in a review, actionable words in interactive text-driven software, or an article lede.
+<i>-i element represents a span of text in an alternate voice or mood, or otherwise offset from the normal prose in a manner indicating a different quality of text, such as a taxonomic designation, a technical term, an idiomatic phrase from another language, transliteration, a thought, or a ship name in Western texts.
+<hr>- The hr element represents a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book.   
+<div>-The div element has no special meaning at all. It represents its children. It can be used with the class, lang, and title attributes to mark up semantics common to a group of consecutive elements.
+<iframe>-The iframe element represents a nested browsing context.
+<style>	It is used to provide CSS for the HTML elements of the document
+<image> It defines image on webpage
+<video> Used to define video content on the webpage
+<figure> It defines a self-contained container for images,code snippets,diagrams,etc
+<time> It is used to represent time in HTML
+<textarea> It defines resizable multi-line plain text input
+<footer> It is used to create a footer of web page
+<span> is used to create span or an online section in paragraph
+<labe> is used to create a caption for an item
+<dl> is used to create description list
+<svg> is used to create geometrical shapes and images
+<area> is used to define an area inside an image and create a clickable
+<summary> is used to create a summary element for details element
+<main> is used to create the main content area of a webpage
+#WHAT IS THE DIFFERENCE BETWEEN HTML AND XHTML?
+*What is HTML?
+-HTML is short for Hypertext Markup Language.
+- It is used to create websites and web applications. 
+ -Let’s break it down, so we understand the name better:
+-Hypertext: Hypertext refers to the “text wrapped within a text.” It is very similar to hyperlinks and contains an underlying text that, when clicked, redirects to a new webpage.
+-Markup language: A markup language is not necessarily a programming language. Instead, it is used to apply formatting and layout to a simple text document. This leads to more interactive and dynamic text content.
+*HTML Versions
+-November 24, 1995 HTML 2.0 was published as IETF RFC 1866.
+-January 1997 HTML 3.2 was published as a W3C Recommendation. It was the first version developed and standardized exclusively by the W3C, as the IETF had closed its HTML Working Group in September 1996.
+-December 1997 HTML 4.0 was published as a W3C Recommendation.
+-april 1998 HTML 4.0 was reissued with minor edits without incrementing the version number.
+-December 1999 HTML 4.01 was published as a W3C Recommendation.
+-It offers the same three variations as HTML 4.0, and its last errata were published May 12, 2001.
+-May 2000 ISO/IEC 15445:2000 ("ISO HTML", based on HTML 4.01 Strict) was published as an ISO/IEC international standard. In the ISO this standard falls in the domain of the ISO/IEC JTC1/SC34 (ISO/IEC Joint Technical Committee 1, Subcommittee 34 - Document description and processing languages).
+-As of mid-2008, HTML 4.01 and ISO/IEC 15445:2000 are the most recent versions of HTML. Development of the parallel, XML-based language XHTML occupied the W3C's HTML Working Group through the early and mid-2000s.
+*What is XHTML?
+-XHTML stands for Extensible Hypertext Markup Language
+-XHTML is almost similar to HTML but it is stricter than HTML
+-It is swift, accurate, easily maintained, convertible, and formatted
+-All major browsers support XHTML
+-Also Read: The Best Guide to HTML Tags
+*Versions of XHTML
+-XHTML 1.0
+-In earlier times[when?], Wikipedia used the XHTML 1.0 Transitional doctype and syntax, though it was not served as XHTML
+-December 1998 saw the publication of a W3C Working Draft entitled Reformulating HTML in XML. This introduced Voyager, the codename for a new markup language based on HTML 4, but adhering to the stricter syntax rules of XML. By February 1999 the name of the specification had changed to XHTML 1.0: The Extensible HyperText Markup Language, and in January 2000 it was officially adopted as a W3C Recommendation.[46] There are three formal DTDs for XHTML 1.0, corresponding to the three different versions of HTML 4.01:
+-XHTML 1.0 Strict is the XML equivalent to strict HTML 4.01, and includes elements and attributes that have not been marked deprecated in the HTML 4.01 specification. As of November 2015, XHTML 1.0 Strict is the document type used for the homepage of the website of the World Wide Web Consortium.
+-XHTML 1.0 Transitional is the XML equivalent of HTML 4.01 Transitional, and includes the presentational elements (such as center, font and strike) excluded from the strict version.
+-XHTML 1.0 Frameset is the XML equivalent of HTML 4.01 Frameset, and allows for the definition of frameset documents—a common Web feature in the late 1990s.
+-The second edition of XHTML 1.0 became a W3C Recommendation in August 2002
+#WHAT IS THE DIFFERENCE BETWEEN HTML AND XHTML?
+*What is HTML?
+-HTML is short for Hypertext Markup Language.
+- It is used to create websites and web applications. 
+ -Let’s break it down, so we understand the name better:
+-Hypertext: Hypertext refers to the “text wrapped within a text.” It is very similar to hyperlinks and contains an underlying text that, when clicked, redirects to a new webpage.
+-Markup language: A markup language is not necessarily a programming language. Instead, it is used to apply formatting and layout to a simple text document. This leads to more interactive and dynamic text content.
+*HTML Versions
+-November 24, 1995 HTML 2.0 was published as IETF RFC 1866.
+
+-January 1997 HTML 3.2 was published as a W3C Recommendation. It was the first version developed and standardized exclusively by the W3C, as the IETF had closed its HTML Working Group in September 1996.
+
+-December 1997 HTML 4.0 was published as a W3C Recommendation.
+
+-april 1998 HTML 4.0 was reissued with minor edits without incrementing the version number.
+
+-December 1999 HTML 4.01 was published as a W3C Recommendation.
+-It offers the same three variations as HTML 4.0, and its last errata were published May 12, 2001.
+
+-May 2000 ISO/IEC 15445:2000 ("ISO HTML", based on HTML 4.01 Strict) was published as an ISO/IEC international standard. In the ISO this standard falls in the domain of the ISO/IEC JTC1/SC34 (ISO/IEC Joint Technical Committee 1, Subcommittee 34 - Document description and processing languages).
+
+-As of mid-2008, HTML 4.01 and ISO/IEC 15445:2000 are the most recent versions of HTML. Development of the parallel, XML-based language XHTML occupied the W3C's HTML Working Group through the early and mid-2000s.
+*What is XHTML?
+-XHTML stands for Extensible Hypertext Markup Language
+-XHTML is almost similar to HTML but it is stricter than HTML
+-It is swift, accurate, easily maintained, convertible, and formatted
+-All major browsers support XHTML
+-Also Read: The Best Guide to HTML Tags
+*Versions of XHTML
+-XHTML 1.0
+
+-In earlier times[when?], Wikipedia used the XHTML 1.0 Transitional doctype and syntax, though it was not served as XHTML
+-December 1998 saw the publication of a W3C Working Draft entitled Reformulating HTML in XML. This introduced Voyager, the codename for a new markup language based on HTML 4, but adhering to the stricter syntax rules of XML. By February 1999 the name of the specification had changed to XHTML 1.0: The Extensible HyperText Markup Language, and in January 2000 it was officially adopted as a W3C Recommendation.[46] There are three formal DTDs for XHTML 1.0, corresponding to the three different versions of HTML 4.01:
+
+-XHTML 1.0 Strict is the XML equivalent to strict HTML 4.01, and includes elements and attributes that have not been marked deprecated in the HTML 4.01 specification. As of November 2015, XHTML 1.0 Strict is the document type used for the homepage of the website of the World Wide Web Consortium.
+-XHTML 1.0 Transitional is the XML equivalent of HTML 4.01 Transitional, and includes the presentational elements (such as center, font and strike) excluded from the strict version.
+-XHTML 1.0 Frameset is the XML equivalent of HTML 4.01 Frameset, and allows for the definition of frameset documents—a common Web feature in the late 1990s.
+-The second edition of XHTML 1.0 became a W3C Recommendation in August 2002
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+    
